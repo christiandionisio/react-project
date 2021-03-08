@@ -46,7 +46,7 @@ function Login() {
         <CssBaseline />
         <div className={classes.paper}>
           <Typography component="h1" variant="h5">
-            Login
+            Login Tomapedidos
           </Typography>
           {auth.authenticated.error.error && (
               <Alert severity="warning" style={{marginTop: '10px', marginButtom: '10px'}}>{auth.authenticated.error.message}</Alert>

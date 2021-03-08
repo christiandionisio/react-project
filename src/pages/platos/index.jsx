@@ -10,7 +10,6 @@ function Platos() {
     const dispatch = useDispatch()
 
     const getDataFromAPI = () => {
-        const plato = 'Arroz con pollo'
         dispatch(platosActions.fetchPlatosData())
     }
 
@@ -21,6 +20,9 @@ function Platos() {
             <Button onClick={getDataFromAPI} variant="contained" color="primary">
                 Primary
             </Button>
+            <div style={{display: 'flex', flexDirection: 'column'}}>
+                test
+            </div>
         </Layout>
     )
 }
